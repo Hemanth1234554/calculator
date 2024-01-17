@@ -1,0 +1,26 @@
+.center{
+    text-align: center;
+    font-family: 'Salsa', cursive;
+}
+
+/* .bg-green{
+    background-color: green;
+} */
+
+.mx-auto{
+    margin: auto;
+    text-align: center;
+}
+
+/* .flex{
+    display: flex;
+} */
+
+.felx-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
+

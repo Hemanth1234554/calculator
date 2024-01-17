@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+    margin: 4px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+.row {
+    margin: 12px 0px;
+}
+
+.row input {
+    font-size: 22px;
+    margin: -3px;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+
+.extra-row{
+    padding-right: 18px;
+    padding-left: 19px;
+    font-size: 14px;
+}
+
+.input{
+    font-family: 'Kanit', sans-serif;
+}
+
+/* .rowcontainer{
+    background-color: blue;
+    margin-right: 1000px;
+    margin-left: 1000px;
+} */
+
+.button:hover {
+    background: linear-gradient(to right, #9cb1a0, #7f6665);
+    color: black; /* Change text color on hover if needed */
+}
